@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+.main {
+  width: 100%;
+  display: flex; }
+  .main section {
+    margin-top: 20px; }
+  .main .category {
+    width: 14%;
+    border: 1px solid #EBEBEB;
+    margin-left: 20px;
+    padding: 15px;
+    color: #545454; }
+    .main .category h4 {
+      margin-bottom: 10px; }
+    .main .category ul {
+      list-style-type: none; }
+      .main .category ul li {
+        font-size: 12px;
+        margin-top: 5px; }
+        .main .category ul li span {
+          font-size: 13px;
+          color: #999; }
+  .main .content {
+    width: 86%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    position: relative; }
+    .main .content .change__column {
+      position: absolute;
+      right: 50px; }
+    .main .content .product {
+      color: #545454;
+      width: 25%; }
+      .main .content .product img {
+        width: 200px; }
+      .main .content .product h1 {
+        font-size: 16px;
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: normal; }
+      .main .content .product .price__details {
+        display: flex;
+        margin-top: 8px; }
+        .main .content .product .price__details .discount {
+          background-color: red;
+          color: #fff;
+          padding: 10px;
+          border-radius: 5px; }
+        .main .content .product .price__details .price {
+          margin-left: 10px;
+          font-size: 20px;
+          font-weight: bold; }
+          .main .content .product .price__details .price:before {
+            content: '249,90 TL';
+            font-weight: normal;
+            font-size: 13px;
+            display: block;
+            text-decoration: line-through; }
+        .main .content .product .price__details .price__discount {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          font-size: 13px;
+          font-weight: normal; }
+      .main .content .product .price__cart {
+        margin-top: 12px; }
+        .main .content .product .price__cart h4 {
+          color: #379E00;
+          font-size: 15px;
+          font-weight: normal; }
+          .main .content .product .price__cart h4 span {
+            font-weight: bold; }
+        .main .content .product .price__cart h2 {
+          font-size: 20px; }
+        .main .content .product .price__cart p {
+          margin-top: 30px;
+          font-size: 13px;
+          color: #379E00; }
+
+.page__number ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 140px 0; }
+  .page__number ul a {
+    text-decoration: none;
+    color: #545454; }
+  .page__number ul li {
+    width: 60px;
+    height: 35px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 35px;
+    border-radius: 40px;
+    background-color: #f0f0f0;
+    margin-right: 10px; }
+    .page__number ul li:last-child {
+      margin-left: 10px; }
+  .page__number ul .active {
+    background-color: #F16C00;
+    color: #fff; }
+  .page__number ul span {
+    line-height: 35px; }
