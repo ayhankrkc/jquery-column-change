@@ -1,10 +1,12 @@
 $text-color: #545454
+$orange: #F16C00
 *
     margin: 0
     padding: 0
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif
 .main
-    width: 100%
+    width: 80%
+    margin: 50px auto
     display: flex
     section
         margin-top: 20px
@@ -32,8 +34,16 @@ $text-color: #545454
         margin-left: 20px
         position: relative
         .change__column
-            position: absolute
+            width: 100%
+            text-align: right
             right: 50px
+            a
+                text-decoration: none
+                color: $text-color
+            i
+                font-size: 40px
+            .active
+                color: $orange
         .product
             color: $text-color
             width: 25%
@@ -104,7 +114,7 @@ $text-color: #545454
             &:last-child
                 margin-left: 10px
         .active
-            background-color: #F16C00
+            background-color: $orange
             color: #fff
         span
             line-height: 35px
