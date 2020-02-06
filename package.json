@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass assets/style.sass assets/style.css -w"
+    "compile:sass": "node-sass assets/css/style.sass assets/css/style.css -w"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.4.1",
     "material-design-icons": "^3.0.1",
     "node-sass": "^4.13.1"
   }
