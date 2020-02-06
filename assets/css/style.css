@@ -16,12 +16,12 @@
     padding: 15px;
     color: #545454; }
     .main .category h4 {
-      margin-bottom: 10px; }
+      margin-bottom: 20px; }
     .main .category ul {
       list-style-type: none; }
       .main .category ul li {
         font-size: 12px;
-        margin-top: 5px; }
+        margin-top: 10px; }
         .main .category ul li span {
           font-size: 13px;
           color: #999; }
